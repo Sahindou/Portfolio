@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     // Écouteurs d'événements pour les boutons
     $('#btnAbout').click(function(){
-        loadContent('template/about.html', '#content'); // Charge le contenu de about.html dans #content
+        loadContent('template/about.html', "#content"); // Charge le contenu de about.html dans #content
     });
 
     $('#btnContact').click(function(){
