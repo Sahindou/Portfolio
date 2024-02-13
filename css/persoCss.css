@@ -1,0 +1,22 @@
+.buttonPerso {
+    text-align: center;
+    animation: scrollUpDown 3s infinite alternate;
+    max-width: 80%; /* Ajout d'une largeur maximale */
+    margin: 0 auto; /* Centre le div horizontalement */
+}
+
+.buttonPerso button {
+    margin: 10px;
+}
+
+
+/* Styles pour les appareils mobiles */
+@media only screen and (max-width: 600px) {
+    .buttonPerso {
+        max-width: 100%; /* Pour les petits écrans, occuper toute la largeur */
+    }
+
+    .buttonPerso button {
+        margin: 5px; /* Réduire la marge pour les boutons sur les petits écrans */
+    }
+}
