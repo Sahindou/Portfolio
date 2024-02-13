@@ -5,7 +5,7 @@ $(document).ready(function(){
             url: pageUrl,
             dataType: 'html',
             success: function(response) {
-                $(targetDiv).html(response);
+                $(targetDiv).text(response);
             },
             error: function(xhr, status, error) {
                 console.error('Erreur lors du chargement du contenu: ' + error);
