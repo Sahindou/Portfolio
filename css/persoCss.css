@@ -9,7 +9,6 @@
     margin: 10px;
 }
 
-
 /* Styles pour les appareils mobiles */
 @media only screen and (max-width: 600px) {
     .buttonPerso {
@@ -19,4 +18,73 @@
     .buttonPerso button {
         margin: 5px; /* Réduire la marge pour les boutons sur les petits écrans */
     }
+}
+/*css pour le div aboutAlternance*/
+
+.aboutAlter {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutAlter h3{
+color: #2c3e50;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutAlter {
+        width: 90%; /* Réduire la largeur pour les petits écrans */
+        padding: 15px; /* Réduire le padding pour les petits écrans */
+    }
+
+    .aboutAlter h3 {
+        font-size: 20px; /* Réduire la taille du texte pour les petits écrans */
+    }
+}
+
+/*information About*/
+
+.containerAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topAbout {
+    margin-bottom: 20px;
+}
+
+.bottomAbout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centrer les éléments verticalement */
+    width: 100%;
+    margin-top: 5%;
+}
+
+.infoAbout {
+    width: calc(50% - 10px); /* Prendre la moitié de la largeur - 10px de marge */
+    margin-right: 10px;
+}
+
+/* Pour les appareils mobiles */
+@media only screen and (max-width: 600px) {
+    .infoAbout {
+        width: 100%; /* Prendre toute la largeur sur les petits écrans */
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.col-md-8 h2{
+    text-align: center;
 }
